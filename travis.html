@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TravisSmith.io</title>
+        <script>
+            console.log(location.href)
+            function cat(){
+                location.assign('https://random.cat')
+            }
+            function dog(){
+                location.assign('https://random.dog')
+            }
+            function ich(){
+                location.assign('https://ich.io');
+            }
+            function storm(){
+                location.assign('https://stormyskitten.github.io');
+            }
+            function cbckids(){
+                location.assign('https://www.cbc.ca/kids/');
+            }
+            function cookie(){
+                location.assign('https://stormyskitten.github.io/CookieClickerUnblocked/');
+            }
+            function paper(){
+                location.assign('https://www.symbaloo.com/mix/paperiounblocked2?lang=EN');
+            }
+            function myhem(){
+                location.assign('https://gun-mayhem-2.github.io/');
+            }
+            function par(){
+                location.assign('https://particle-clicker.web.cern.ch/');
+            }
+            function run3(){
+                location.assign('http://yixboost.nl.eu.org/yixboost/games/run3/');
+            }
+            
+            function hook(){
+                location.assign('https://stickmanhookunblocked.github.io');
+            }
+            
+            function little(){
+                location.assign('https://littlealchemy.com/');
+            }
+            
+            function dash(){
+                location.assign('https://geometrydash.io/lite');
+            }
+            
+            function little2(){
+                location.assign('https://littlealchemy2.com/');
+            }
+            
+            function craft(){
+                location.assign('https://neal.fun/infinite-craft/');
+            }
+            
+            function math(){
+                location.assign('https://www.mathplayground.com/');
+            }
+            
+            function fun(){
+                location.assign('https://neal.fun/');
+            }
+            function poki(){
+                location.assign('https://poki.com/');
+            }
+            function Custom(){
+                var lo = document.getElementById("urltoweb").value;
+                co = 'https://'+ lo;
+                if (co !== 'https://') {
+                    windows.ope(co);
+                }
+            }
+        </script>
+        <meta charset="windows-1258">
+        <style>
+            body{
+                font-family: sans-serif;
+                text-align: center;
+            }
+            
+            button{
+                width: 400px;
+                height: 95px;
+                background: lightblue;
+                margin: 8px 10px 20px 10px;
+                border-radius: 15px;
+                font-size: 30px;
+            }
+            
+            input{
+                height: 30px;
+                background-color: white;
+                color: hsl(250, 100%, 50%);
+                font-size: 23px;
+                width: 330px;
+                margin: 0px 0px 0px 0px;
+                border-radius: 10px;
+            }
+            
+            #customgo{
+                height: 35px;
+                width: 130px;
+                font-size: 18px;
+                border-radius: 8px;
+            }
+            
+            h1{
+                font-family: cursive;
+                font-size: 50px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>TRAVISSMITH.IO</h1>
+        <p>a tiny website made by travis</p>
+        <p>choose your game</p>
+        <div>
+            <button onclick="little()">little alchemy</button>
+            <button onclick="dash()">geometry dash</button>
+            <button onclick="little2()">little alchemy 2</button>
+        </div>
+        <div>
+            <button onclick="craft()">infinite craft</button>
+            <button onclick="math()">math playground</button>
+            <button onclick="fun()">neal.fun</button>
+        </div>
+        <div>
+            <button onclick="poki()">poki</button>
+            <button onclick='hook()'>stickman hook</button>
+            <button onclick='run3()'>run_3</button>
+        </div>
+        <div>
+            <button onclick="par()">partice clicker</button>
+            <button onclick="myhem()">gun myhem2</button>
+            <button onclick="paper()">paper.io</button>
+        </div>
+        <div>
+            <button onclick="cookie()">cookie clicker</button>
+            <button onclick="cbckids()">cbc kids</button>
+            <button onclick="storm()">stormyskitten</button>
+        </div>
+        <div>
+            <button onclick="ich()">ich.io</button>
+            <button onclick="dog()">random.dog</button>
+            <button onclick="cat()">random.cat</button>
+        </div>
+        <p>Custom Website for games</p>
+        <label>url :</label>
+        <input id="urltoweb">
+        <button onclick="Custom()" id='customgo'>Proceed</button>
+    </body>
+</html>
